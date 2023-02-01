@@ -1,11 +1,10 @@
-# design-system-ignite
+# Components
 
-- [ ] Text
-- [ ] Heading
-- [ ] Box / Card
 - [ ] Button
+- [ ] Heading
+- [ ] Text
 - [ ] TextInput
-- [ ] TextArea
+- [ ] Textarea
 - [ ] Checkbox
 - [ ] Avatar
 - [ ] MultiStep

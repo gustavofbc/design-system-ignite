@@ -68,6 +68,13 @@ var fontSizes = {
   "9xl": "6rem"
 };
 
+// src/font-weights.ts
+var fontWeights = {
+  regular: "400",
+  medium: "500",
+  bold: "700"
+};
+
 // src/line-heights.ts
 var lineHeights = {
   shorter: "125%",
@@ -78,6 +85,7 @@ var lineHeights = {
 export {
   colors,
   fontSizes,
+  fontWeights,
   fonts,
   lineHeights,
   radii,

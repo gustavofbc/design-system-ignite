@@ -63,6 +63,12 @@ declare const fontSizes: {
     '9xl': string;
 };
 
+declare const fontWeights: {
+    regular: string;
+    medium: string;
+    bold: string;
+};
+
 declare const lineHeights: {
     shorter: string;
     short: string;
@@ -70,4 +76,4 @@ declare const lineHeights: {
     tall: string;
 };
 
-export { colors, fontSizes, fonts, lineHeights, radii, space };
+export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };
