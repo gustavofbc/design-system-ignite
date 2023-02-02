@@ -8,6 +8,13 @@ export default {
     args: {
         src: 'https://github.com/gustavofbc.png',
         alt: 'Gustavo Felipe'
+    },
+    argTypes: {
+        src: {
+            control: {
+                type: 'text',
+            }
+        }
     }
 } as Meta<AvatarProps>
 
