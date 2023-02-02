@@ -8,6 +8,12 @@ export default {
 
     args: {
         children: 'Send',
+    },
+
+    argTypes: {
+        onClick: {
+            action: 'click',
+        }
     }
 } as Meta<ButtonProps>
 
@@ -17,7 +23,7 @@ export const Secondary: StoryObj<ButtonProps> = {
     args: {
         variant: 'secondary',
         children: 'Create new'
-    }
+    },
 }
 
 export const Tertiary: StoryObj<ButtonProps> = {
