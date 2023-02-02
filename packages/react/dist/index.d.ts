@@ -1250,6 +1250,9 @@ interface TextInputProps extends ComponentProps<typeof Input> {
     prefix?: string;
 }
 declare function TextInput({ prefix, ...props }: TextInputProps): JSX.Element;
+declare namespace TextInput {
+    var displayName: string;
+}
 
 declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"textarea", {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
@@ -1662,11 +1665,17 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
 interface CheckboxProps extends ComponentProps<typeof CheckboxContainer> {
 }
 declare function Checkbox(props: CheckboxProps): JSX.Element;
+declare namespace Checkbox {
+    var displayName: string;
+}
 
 interface MultiStepProps {
     size: number;
     currentStep?: number;
 }
 declare function MultiStep({ size, currentStep }: MultiStepProps): JSX.Element;
+declare namespace MultiStep {
+    var displayName: string;
+}
 
 export { Avatar, AvatarProps, Box, BoxProps, Button, ButtonProps, Checkbox, CheckboxProps, Heading, HeadingProps, MultiStep, MultiStepProps, Text, TextArea, TextAreaProps, TextInput, TextInputProps, TextProps };
