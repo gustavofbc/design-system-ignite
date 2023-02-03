@@ -20,5 +20,7 @@ module.exports = {
     if(configType === 'PRODUCTION') {
       config.base = '/design-system-ignite/'
     }
+
+    return config
   }
 };
